@@ -13,6 +13,12 @@
 		C232703D20EB1B72005873B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C232703C20EB1B72005873B5 /* Assets.xcassets */; };
 		C232704020EB1B72005873B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C232703E20EB1B72005873B5 /* LaunchScreen.storyboard */; };
 		C232704320EB1B72005873B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C232704220EB1B72005873B5 /* main.m */; };
+		C232706120EB1D06005873B5 /* TranslateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C232704E20EB1D06005873B5 /* TranslateModel.m */; };
+		C232706320EB1D06005873B5 /* TranslateModelDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C232705420EB1D06005873B5 /* TranslateModelDataManager.m */; };
+		C232706620EB1D06005873B5 /* TranslateBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C232705A20EB1D06005873B5 /* TranslateBubbleView.m */; };
+		C232706720EB1D06005873B5 /* TranslateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C232705C20EB1D06005873B5 /* TranslateCell.m */; };
+		C232706820EB1D06005873B5 /* TranslateToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C232705E20EB1D06005873B5 /* TranslateToolbarView.m */; };
+		C232706D20EB1E90005873B5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C232706C20EB1E90005873B5 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,21 @@
 		C232703F20EB1B72005873B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C232704120EB1B72005873B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C232704220EB1B72005873B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C232704A20EB1C49005873B5 /* CommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonConfig.h; sourceTree = "<group>"; };
+		C232704D20EB1D06005873B5 /* TranslateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateModel.h; sourceTree = "<group>"; };
+		C232704E20EB1D06005873B5 /* TranslateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateModel.m; sourceTree = "<group>"; };
+		C232705020EB1D06005873B5 /* TranslateEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateEnum.h; sourceTree = "<group>"; };
+		C232705320EB1D06005873B5 /* TranslateModelDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateModelDataManager.h; sourceTree = "<group>"; };
+		C232705420EB1D06005873B5 /* TranslateModelDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateModelDataManager.m; sourceTree = "<group>"; };
+		C232705920EB1D06005873B5 /* TranslateBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateBubbleView.h; sourceTree = "<group>"; };
+		C232705A20EB1D06005873B5 /* TranslateBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateBubbleView.m; sourceTree = "<group>"; };
+		C232705B20EB1D06005873B5 /* TranslateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateCell.h; sourceTree = "<group>"; };
+		C232705C20EB1D06005873B5 /* TranslateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateCell.m; sourceTree = "<group>"; };
+		C232705D20EB1D06005873B5 /* TranslateToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateToolbarView.h; sourceTree = "<group>"; };
+		C232705E20EB1D06005873B5 /* TranslateToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateToolbarView.m; sourceTree = "<group>"; };
+		C232706B20EB1E90005873B5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C232706C20EB1E90005873B5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C232706F20EB220A005873B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +65,7 @@
 			children = (
 				C232703220EB1B72005873B5 /* TableViewDemo */,
 				C232703120EB1B72005873B5 /* Products */,
+				C232706E20EB220A005873B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +80,9 @@
 		C232703220EB1B72005873B5 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C232706A20EB1E70005873B5 /* Category */,
+				C232704920EB1C22005873B5 /* Other */,
+				C232704B20EB1D05005873B5 /* TranslateManager */,
 				C232703320EB1B72005873B5 /* AppDelegate.h */,
 				C232703420EB1B72005873B5 /* AppDelegate.m */,
 				C232703620EB1B72005873B5 /* ViewController.h */,
@@ -69,6 +94,73 @@
 				C232704220EB1B72005873B5 /* main.m */,
 			);
 			path = TableViewDemo;
+			sourceTree = "<group>";
+		};
+		C232704920EB1C22005873B5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C232704A20EB1C49005873B5 /* CommonConfig.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C232704B20EB1D05005873B5 /* TranslateManager */ = {
+			isa = PBXGroup;
+			children = (
+				C232704C20EB1D06005873B5 /* Model */,
+				C232704F20EB1D06005873B5 /* Other */,
+				C232705520EB1D06005873B5 /* View */,
+			);
+			path = TranslateManager;
+			sourceTree = "<group>";
+		};
+		C232704C20EB1D06005873B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C232704D20EB1D06005873B5 /* TranslateModel.h */,
+				C232704E20EB1D06005873B5 /* TranslateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C232704F20EB1D06005873B5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C232705020EB1D06005873B5 /* TranslateEnum.h */,
+				C232705320EB1D06005873B5 /* TranslateModelDataManager.h */,
+				C232705420EB1D06005873B5 /* TranslateModelDataManager.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C232705520EB1D06005873B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C232705B20EB1D06005873B5 /* TranslateCell.h */,
+				C232705C20EB1D06005873B5 /* TranslateCell.m */,
+				C232705920EB1D06005873B5 /* TranslateBubbleView.h */,
+				C232705A20EB1D06005873B5 /* TranslateBubbleView.m */,
+				C232705D20EB1D06005873B5 /* TranslateToolbarView.h */,
+				C232705E20EB1D06005873B5 /* TranslateToolbarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C232706A20EB1E70005873B5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C232706B20EB1E90005873B5 /* UIView+Extension.h */,
+				C232706C20EB1E90005873B5 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C232706E20EB220A005873B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C232706F20EB220A005873B5 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C232706320EB1D06005873B5 /* TranslateModelDataManager.m in Sources */,
+				C232706D20EB1E90005873B5 /* UIView+Extension.m in Sources */,
 				C232703820EB1B72005873B5 /* ViewController.m in Sources */,
 				C232704320EB1B72005873B5 /* main.m in Sources */,
+				C232706120EB1D06005873B5 /* TranslateModel.m in Sources */,
+				C232706720EB1D06005873B5 /* TranslateCell.m in Sources */,
+				C232706620EB1D06005873B5 /* TranslateBubbleView.m in Sources */,
+				C232706820EB1D06005873B5 /* TranslateToolbarView.m in Sources */,
 				C232703520EB1B72005873B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
